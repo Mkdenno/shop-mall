@@ -1,0 +1,52 @@
+
+
+
+.cardcontainer{
+    
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    width:100%;
+    border-radius: 15px;
+
+
+}
+.mycart{
+    margin: 1rem;
+    height: auto;
+    box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+    padding: 1rem;
+    border-radius: 5px;
+    /* height: 200px; */
+
+
+
+}
+.mycart img{
+    width: 300px;
+    height: 200px;
+    padding: 2rem;
+}
+.cartDescription{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+}
+.pricebutton{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+}
+.pricebutton h2{
+color: red;
+}
+.pricebutton button{
+    padding:0.5rem 1rem;
+    border-radius: 5px;
+    border: none;
+    background-color: green;
+    color: white;
+    }
